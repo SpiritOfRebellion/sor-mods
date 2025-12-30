@@ -5,7 +5,6 @@
 		"name": "",
 		"school" : {},
 		"level": 0,
-		"power": 50, // isn't this redundant, as power was already set in pitLord.json?
 		"defaultGainChance": 0,
 		"gainChance": {},
 		"animation":{
@@ -18,13 +17,13 @@
 		"levels" : {
 			"base": {
 				"description" : "Rise Gogs form army corpses.",
-				"power" : 50, //isn't this redundant?
+				"power" : 50,
 				"cost" : 1,
 				"targetModifier":{"smart":true},
 				"range" : "0",
 				"battleEffects":{
 					"demonSummon":{
-						"id":"core:creature.gog", // probably a point where demons can be replaced with any creature.
+						"id":"creature.gog", // probably a point where demons can be replaced with any creature.
 						"permanent":true,
 						"type":"core:demonSummon"
 					}
@@ -41,8 +40,8 @@
 		},
 		"targetCondition" : {
 			"noneOf" : {
-				"core:creature.gog":"absolute", //should prevent from raising gogs form gogs?
-				"core:creature.magog":"absolute", //should prevent from raising gogs from magogs?
+				"creature.gog":"absolute", //should prevent from raising gogs form gogs?
+				"creature.magog":"absolute", //should prevent from raising gogs from magogs?
 				"bonus.NON_LIVING" : "absolute",
 				"bonus.MECHANICAL" : "absolute",
 				"bonus.SIEGE_WEAPON" : "absolute",

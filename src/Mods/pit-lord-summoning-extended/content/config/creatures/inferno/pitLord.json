@@ -3,18 +3,6 @@
 	{
 		"abilities":
 		{
-			"summonImps50HP" :
-			{
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.riseImps",
-				"val" : 50
-			},
-			"summonGogs50HP" :
-			{
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.riseGogs",
-				"val" : 50
-			},
 			"riseImps" :
 			{
 				"type" : "SPELLCASTER",

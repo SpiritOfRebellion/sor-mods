@@ -27,6 +27,5 @@
 	"creatures" :
 	[
 		"config/creatures/inferno/pitLord"
-	],
-	"settings" : {}
+	]
 }
