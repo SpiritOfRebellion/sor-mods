@@ -1,0 +1,26 @@
+{
+	"name" : "Summon Gogs",
+	"description" : "Adds 'Summon Gogs' spell",
+	"author" : "SpiritOfRebellion, Kurek (graphics, with permission)",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "",
+	"version" : "0.0.1",
+	"modType" : "Spells",
+	"language" : "english",
+	"depends" :[],
+	"softDepends" : [],
+	"conflicts" : [],
+	"compatibility" : {
+		"min" : "1.7.1"
+	},
+	"changelog" :
+	{
+		"0.0.1" : [ "mod establishment" ],
+	},
+	"keepDisabled" : false,
+	"spells" :
+	[
+		"config/spells/summonGogs",
+	],
+}

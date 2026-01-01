@@ -1,0 +1,19 @@
+{
+	"core:pitFiend" :
+	{
+		"abilities":
+		{
+			"riseImps" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.riseImps",
+				"val" : 0
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 6
+			}// remember to delete it after tests
+		}
+	}
+}

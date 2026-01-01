@@ -1,0 +1,32 @@
+{
+	"core:pitLord" :
+	{
+		"abilities":
+		{
+			"riseImps" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.riseImps",
+				"val" : 0
+			},
+			"riseGogs" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.riseGogs",
+				"val" : 0
+			},
+			"riseHellHounds" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.riseHellHounds",
+				"val" : 0
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 6
+			}// remember to delete it after tests
+		}
+	}
+}
+
