@@ -1,4 +1,4 @@
-#SOR Mods
+# SOR Mods
 
 It's a training project for VCMI, which will probably evolve into a modpack.
 
