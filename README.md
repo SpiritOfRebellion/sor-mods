@@ -3,10 +3,10 @@
 It's a training project for VCMI, which will probably evolve into a modpack.
 
 Table of contents:
-+ [Pit Lord's rise abilities extended ](#pit-lords-rise-variants);
-+ [Inferno summoning spells set](#inferno-summoning-spells-set);
-+ [Devils as 'Teleport' spellcasters](#devils-as-teleport-spellcasters);
-+ [Elemental vulnerability spells](#elemental-vulnerability-spells);
++ [Pit Lord's rise variants ](#pit-lords-rise-variants)
++ [Inferno summoning spells set](#inferno-summoning-spells-set)
++ [Devils as 'Teleport' spellcasters](#devils-as-teleport-spellcasters)
++ [Elemental vulnerability spells](#elemental-vulnerability-spells)
 
 
 ## Pit Lord's rise variants 
@@ -62,10 +62,10 @@ Table of contents:
 > Work in progress.
 
 ### Mechanics
-- [] Spells: 'Fire Vulnerability'(lv1), 'Water Vulnerability'(lv1), 'Earth Vulnerability'(lv1), 'Air Vulnerability'(lv1), all increases damage by 25/50/75% from their sources.
+- [ ] Spells: 'Fire Vulnerability'(lv1), 'Water Vulnerability'(lv1), 'Earth Vulnerability'(lv1), 'Air Vulnerability'(lv1), all increases damage by 25/50/75% from their sources.
 ### Refinements
 - [x] Modular mod's structure.
-- [] Graphic design.
-- [] Sounds.
+- [ ] Graphic design.
+- [ ] Sounds.
 
 
