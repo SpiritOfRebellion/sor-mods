@@ -12,7 +12,7 @@
 	"softDepends" : [],
 	"conflicts" : [],
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.7.1"
 	},
 	"changelog" :
 	{

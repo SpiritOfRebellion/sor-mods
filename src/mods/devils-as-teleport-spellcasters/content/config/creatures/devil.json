@@ -1,0 +1,19 @@
+{
+	"core:devil" :
+	{
+		"abilities":
+		{
+			"teleportUnit" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.teleport",
+				"val" : 3
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}// remember to delete it after tests
+		}
+	}
+}

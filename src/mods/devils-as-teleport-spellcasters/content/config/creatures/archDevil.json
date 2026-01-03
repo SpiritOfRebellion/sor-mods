@@ -1,0 +1,25 @@
+{
+	"core:archDevil" :
+	{
+		"abilities":
+		{
+			"teleportUnit" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.teleport",
+				"val" : 3
+			},
+			"sacrificeUnit" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.sacrifice",
+				"val" : 3
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}// remember to reduce it after tests
+		}
+	}
+}

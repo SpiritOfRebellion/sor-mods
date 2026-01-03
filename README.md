@@ -2,26 +2,70 @@
 
 It's a training project for VCMI, which will probably evolve into a modpack.
 
-## 1. Pit Lord's rise abilities extended (work in progress)
+Table of contents:
++ [Pit Lord's rise abilities extended ](#pit-lords-rise-variants);
++ [Inferno summoning spells set](#inferno-summoning-spells-set);
++ [Devils as 'Teleport' spellcasters](#devils-as-teleport-spellcasters);
++ [Elemental vulnerability spells](#elemental-vulnerability-spells);
 
-- [x] Add new rise abilities 'Rise Imps' and 'Rise Gogs' to the Pit Lord, based on its native ability to rise demons from corpses.
-- [x] Add Rise Hell Hounds too.
-- [x] Allow PitFiend to rise Imps.
-- [ ] Make mod modular.
-- [ ] Make icons for the new action panel on the right.
-- [ ] Make datasheets and adjust power.
-- [ ] Test with popular mods.
-- [ ] Remove testing modifications or make them modular.
+
+## Pit Lord's rise variants 
+
+> [!NOTE]
+> Work in progress.
+
+### Mechanics
+- [x] 'Rise Imps' as the Pit Fiend's and the Pit Lord's ability.
+- [x] 'Rise Gogs' as the Pit Lord's ability.
+- [x] 'Rise Hell Hounds' as the Pit Lord's ability.
+- [x] Rising the same types of units, e.g Imps from Imps and Imps from Familiars prohibited.
+### Refinements
+- [ ] Modular mod's structure.
+- [ ] Neat icons in the new action panel (the one on the right).
+- [ ] Datasheets and power adjustments.
+- [ ] Tests with popular mods.
+- [ ] Testing modifications as submods disabled by default.
+- [ ] A storage for mod's source files as a submod, disabled by default.
 
 ![Pit Lord's new abilities](https://github.com/SpiritOfRebellion/sor-mods/blob/main/src/screenshots/rise.gif?raw=true)
-## 2. Inferno summoning spells set (work in progress)
+## Inferno summoning spells set
 
-- [x] Make mod modular.
-- [ ] Create spells 'Summon Imp', 'Summon Familiar', 'Summon Gog', 'Summon Magog', Summon Hellhound', 'Summon Cerberi', 'Summon Demon', 'Summon Horned Demon'
-- [ ] Make Inferno to have exclusive access to upgraded versions of the spells.
-- [ ] Prohibit spells for 'good' factions.
-- [ ] Make 'Summon imps' and 'Summon Familiars' the easiest summoning spell, available ealrly on lv2.
-- [ ] Link summoning spellpower with a quantity of spellcasters.
-- [ ] Make datasheets and adjust power.
-- [ ] Make graphics. 
+> [!NOTE]
+> Work in progress.
+
+### Mechanics
+- [ ] Spells: 'Summon Imp' (lv2), 'Summon Familiar'(lv3), 'Summon Gog'(lv4), 'Summon Magog'(lv4), Summon Hellhound'(lv5), 'Summon Cerberi'(lv5), 'Summon Demon'(lv5), 'Summon Horned Demon'(lv5).
+- [ ] Inferno has exclusive availability to the upgraded versions of summons.
+- [ ] The spells are prohibited for 'good' factions.
+- [ ] Summoning spellpower is related with a quantity of spellcasters.
+### Refinements
+- [x] Modular mod's structure.
+- [ ] Datasheets and power adjustments.
+- [ ] Graphic design.
+- [ ] A storage for mod's source files as a submod.
+
+## Devils as 'Teleport' spellcasters
+
+> [!IMPORTANT]
+> Stalled. Waiting for the issues to be solved - [issue #6616](https://github.com/vcmi/vcmi/issues/6616) 
+
+### Mechanics
+- [x] The Devil gets the 'Teleport' spell (master).
+- [x] The Archdevil gets the 'Teleport' spell (master).
+- [ ] The Archdevil casts 'Teleport' without losing turn.
+### Refinements
+- [ ] Modular mod's structure.
+
+## Elemental vulnerability spells
+
+> [!NOTE]
+> Work in progress.
+
+### Mechanics
+- [] Spells: 'Fire Vulnerability'(lv1), 'Water Vulnerability'(lv1), 'Earth Vulnerability'(lv1), 'Air Vulnerability'(lv1), all increases damage by 25/50/75% from their sources.
+### Refinements
+- [x] Modular mod's structure.
+- [] Graphic design.
+- [] Sounds.
+
 
