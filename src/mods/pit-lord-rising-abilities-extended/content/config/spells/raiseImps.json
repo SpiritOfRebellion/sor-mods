@@ -1,8 +1,8 @@
 {
-"riseGogs": {
+"raiseImps": {
 	"type": "ability",
 	"targetType": "CREATURE",
-	"name": "Rise Gogs",
+	"name": "Raise Imps",
 	"school": {},
 	"level": 0,
 	"power": 50,
@@ -19,10 +19,12 @@
 	"sounds": {
 		"cast": "RESURECT"
 	},
-	"graphics": {},
+	"graphics": {
+		"iconEffect":"raiseImps/iconEffect"
+	},
 	"levels": {
 		"base": {
-			"description": "Rise Gogs form army corpses.",
+			"description": "Raise Imps from army corpses.",
 			"power": 50,
 			"cost": 1,
 			"targetModifier": {
@@ -30,8 +32,8 @@
 			},
 			"range": "0",
 			"battleEffects": {
-				"gogsRise": {
-					"id": "creature.gog",
+				"gogsRaise": {
+					"id": "imp",
 					"permanent": true,
 					"type": "core:demonSummon"
 				}
@@ -46,16 +48,16 @@
 		"rising": true,
 		"positive": true
 	},
-		"targetCondition": {
-			"noneOf": {
-				"creature.gog": "absolute",
-				"creature.magog": "absolute",
-				"bonus.NON_LIVING": "absolute",
-				"bonus.MECHANICAL": "absolute",
-				"bonus.SIEGE_WEAPON": "absolute",
-				"bonus.UNDEAD": "absolute",
-				"bonus.GARGOYLE": "absolute"
-			}
-		}
+	"targetCondition": {
+	"noneOf": {
+		"creature.imp": "absolute",
+		"creature.familiar": "absolute",
+		"bonus.NON_LIVING": "absolute",
+		"bonus.MECHANICAL": "absolute",
+		"bonus.SIEGE_WEAPON": "absolute",
+		"bonus.UNDEAD": "absolute",
+		"bonus.GARGOYLE": "absolute"
 	}
+	}
+}
 }

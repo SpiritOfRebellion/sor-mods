@@ -12,7 +12,7 @@
 	"softDepends" : [],
 	"conflicts" : [],
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.7.1"
 	},
 	"changelog" :
 	{
@@ -21,9 +21,10 @@
 	"keepDisabled" : true,
 	"spells" :
 	[
-		"config/spells/riseImps",
-		"config/spells/riseGogs",
-		"config/spells/riseHellHounds"
+		"config/spells/raiseImps",
+		"config/spells/raiseGogs",
+		"config/spells/raiseHellHounds",
+		"config/spells/raiseDemons"
 	],
 	"creatures" :
 	[

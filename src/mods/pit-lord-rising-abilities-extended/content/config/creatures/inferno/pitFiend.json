@@ -3,10 +3,10 @@
 	{
 		"abilities":
 		{
-			"riseImps" :
+			"raiseImps" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.riseImps",
+				"subtype" : "spell.raiseImps",
 				"val" : 0
 			},
 			"castsAmount" :

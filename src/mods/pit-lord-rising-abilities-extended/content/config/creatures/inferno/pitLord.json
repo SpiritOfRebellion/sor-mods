@@ -3,22 +3,22 @@
 	{
 		"abilities":
 		{
-			"riseImps" :
+			"raiseImps" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.riseImps",
+				"subtype" : "spell.raiseImps",
 				"val" : 0
 			},
-			"riseGogs" :
+			"raiseGogs" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.riseGogs",
+				"subtype" : "spell.raiseGogs",
 				"val" : 0
 			},
-			"riseHellHounds" :
+			"raiseHellHounds" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.riseHellHounds",
+				"subtype" : "spell.raiseHellHounds",
 				"val" : 0
 			},
 			"castsAmount" :

@@ -1,0 +1,13 @@
+{
+	"core:summonDemons" : {
+		"graphics" : {
+			"iconEffect" : "raiseDemons/iconEffect"
+		}
+	},
+	"vcmi-extras:summonDemons" : {
+		"graphics" : {
+			"iconEffect" : "raiseDemons/iconEffect"
+		}
+	}
+}
+

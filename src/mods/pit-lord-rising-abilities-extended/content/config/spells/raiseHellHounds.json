@@ -1,8 +1,8 @@
 {
-"riseHellHounds": {
+"raiseHellHounds": {
 	"type": "ability",
 	"targetType": "CREATURE",
-	"name": "Rise Hellhounds",
+	"name": "Raise Hellhounds",
 	"school": {},
 	"level": 0,
 	"power": 50,
@@ -19,10 +19,12 @@
 	"sounds": {
 		"cast": "RESURECT"
 	},
-	"graphics": {},
+	"graphics": {
+		"iconEffect":"raiseHellHounds/iconEffect"
+	},
 	"levels": {
 		"base": {
-			"description": "Rise Hellhounds form army corpses.",
+			"description": "Raise Hellhounds form army corpses.",
 			"power": 50,
 			"cost": 1,
 			"targetModifier": {
@@ -30,8 +32,8 @@
 			},
 			"range": "0",
 			"battleEffects": {
-				"hellHoundsRise": {
-					"id": "creature.hellHound",
+				"hellHoundsRaise": {
+					"id": "hellHound",
 					"permanent": true,
 					"type": "core:demonSummon"
 				}

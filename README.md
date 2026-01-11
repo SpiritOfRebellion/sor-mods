@@ -1,6 +1,6 @@
 # SOR Mods
 
-It's a training project for VCMI, which will probably evolve into a modpack.
+It's a training project for VCMI, (can probably evolve into a modpack.
 
 Table of contents:
 + [Pit Lord's rise variants ](#pit-lords-rise-variants)
@@ -21,11 +21,9 @@ Table of contents:
 - [x] Rising the same types of units, e.g Imps from Imps and Imps from Familiars prohibited.
 ### Refinements
 - [ ] Modular mod's structure.
-- [ ] Neat icons in the new action panel (the one on the right).
+- [x] Icons in the new action panel (the one on the right).
 - [ ] Datasheets and power adjustments.
 - [ ] Tests with popular mods.
-- [ ] Testing modifications as submods disabled by default.
-- [ ] A storage for mod's source files as a submod, disabled by default.
 
 ![Pit Lord's new abilities](https://github.com/SpiritOfRebellion/sor-mods/blob/main/src/screenshots/rise.gif?raw=true)
 ## Inferno summoning spells set
@@ -34,7 +32,7 @@ Table of contents:
 > Work in progress.
 
 ### Mechanics
-- [ ] Spells: 'Summon Imp' (lv2), 'Summon Familiar'(lv3), 'Summon Gog'(lv4), 'Summon Magog'(lv4), Summon Hellhound'(lv5), 'Summon Cerberi'(lv5), 'Summon Demon'(lv5), 'Summon Horned Demon'(lv5).
+- [x] Spells: 'Summon Imp' (lv2), 'Summon Familiar'(lv3), 'Summon Gog'(lv4), 'Summon Magog'(lv4), Summon Hellhound'(lv5), 'Summon Cerberi'(lv5), 'Summon Demon'(lv5), 'Summon Horned Demon'(lv5).
 - [ ] Inferno has exclusive availability to the upgraded versions of summons.
 - [ ] The spells are prohibited for 'good' factions.
 - [ ] Summoning spellpower is related with a quantity of spellcasters.
@@ -53,6 +51,7 @@ Table of contents:
 - [x] The Devil gets the 'Teleport' spell (master).
 - [x] The Archdevil gets the 'Teleport' spell (master).
 - [ ] The Archdevil casts 'Teleport' without losing turn.
+- [ ] Try to make the 'Teleport' spell work on an opponent's army.
 ### Refinements
 - [ ] Modular mod's structure.
 
